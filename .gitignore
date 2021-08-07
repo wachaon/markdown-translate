@@ -1,7 +1,0 @@
-.gitignore
-account.json
-src/
-node_modules
-dev/
-docs/
-.prettierrc
