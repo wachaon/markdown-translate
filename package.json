@@ -1,6 +1,6 @@
 {
   "name": "markdown-translate",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "This library translates markdown using google apps script and wes",
   "main": "lib/markdown-translate.js",
   "directories": {
