@@ -105,7 +105,7 @@ export default function markdonw_translate(api, options = {}) {
     // キャッシュを保存
     console.log(writeFileSync(Cache, JSON.stringify(CacheJson, null, 4), 'UTF-8'))
 
-
+    const result = {}
     // 各言語別の README を生成し、コールバックを適用後に保存
     Languages.forEach(lang => {
         let translated_markdown = paragraphs.map(paragraph => {
@@ -114,8 +114,11 @@ export default function markdonw_translate(api, options = {}) {
 
         translated_markdown = Callback(translated_markdown)
         console.log(writeFileSync(genOutputSpec(lang), translated_markdown, 'UTF-8'))
+        result[lang] = translated_markdown
     })
 
+    // 戻り値
+    return result
     // util
     /**
      * genOutputSpec - 出力ファイルのパスを生成

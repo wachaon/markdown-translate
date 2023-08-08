@@ -2,7 +2,7 @@
 
 *markdown-translate* は *markdown* の体裁を比較的維持しながら翻訳する *wes library* です。
 
-この [*README*](../README.md) の原文は日本語になります。日本語以外は機械翻訳の文章になります。
+この [*README*](/README.md) の原文は日本語になります。日本語以外は機械翻訳の文章になります。
 他言語の文章は下記から選択してください。
 
 <!-- translate links document -->

@@ -2,9 +2,14 @@
 
 *markdown-translate* è *wes library* che traduce preservando relativamente l'aspetto di *markdown* .
 
-Il testo originale di questo [*README*](../README.md) sarà in giapponese. I testi diversi dal giapponese saranno tradotti automaticamente. Per i testi in altre lingue, selezionare una delle opzioni seguenti.
+Il testo originale di questo [*README*](/README.md) è in giapponese. I testi diversi dal giapponese saranno tradotti automaticamente. Per i testi in altre lingue, selezionare una delle opzioni seguenti.
 
-<!-- translate links document -->
++  [*English*](/docs/README.en.md) <!-- 英語 -->
++  [*繁体字*](/docs/README.zh-TW.md) <!-- 中国語 (繁体字) -->
++  [*Español*](/docs/README.es.md) <!-- スペイン語 -->
++  [*Deutsch*](/docs/README.de.md) <!-- ドイツ語 -->
++  [*français*](/docs/README.fr.md) <!-- フランス語 -->
++  [*русский язык*](/docs/README.ru.md) <!-- ロシア語 -->
 
 ## installare
 
