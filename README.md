@@ -5,7 +5,12 @@
 この [*README*](/README.md) の原文は日本語になります。日本語以外は機械翻訳の文章になります。
 他言語の文章は下記から選択してください。
 
-<!-- translate links document -->
++  [*English*](/docs/README.en.md) <!-- 英語 -->
++  [*繁体字*](/docs/README.zh-TW.md) <!-- 中国語 (繁体字) -->
++  [*Español*](/docs/README.es.md) <!-- スペイン語 -->
++  [*Deutsch*](/docs/README.de.md) <!-- ドイツ語 -->
++  [*français*](/docs/README.fr.md) <!-- フランス語 -->
++  [*русский язык*](/docs/README.ru.md) <!-- ロシア語 -->
 
 ## インストール
 

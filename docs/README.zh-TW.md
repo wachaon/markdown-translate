@@ -4,12 +4,12 @@
 
 本自述[*README*](/README.md)的原始文本為日語。日語以外的文本將被機器翻譯。對於其他語言的文本，請從以下選項中進行選擇。
 
-+  [*English*](/docs/README.en.md) <!-- 英語 -->
-+  [*繁体字*](/docs/README.zh-TW.md) <!-- 中国語 (繁体字) -->
-+  [*Español*](/docs/README.es.md) <!-- スペイン語 -->
-+  [*Deutsch*](/docs/README.de.md) <!-- ドイツ語 -->
-+  [*français*](/docs/README.fr.md) <!-- フランス語 -->
-+  [*русский язык*](/docs/README.ru.md) <!-- ロシア語 -->
+*   [*English*](/docs/README.en.md)
+*   [*繁体字*](/docs/README.zh-TW.md)
+*   [*Español*](/docs/README.es.md)
+*   [*Deutsch*](/docs/README.de.md)
+*   [*français*](/docs/README.fr.md)
+*   [*русский язык*](/docs/README.ru.md)
 
 ## 安裝
 

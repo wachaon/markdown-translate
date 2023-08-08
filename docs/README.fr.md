@@ -4,12 +4,12 @@
 
 Le texte original de ce [*README*](/README.md) sera en japonais. Les textes autres que le japonais seront traduits automatiquement. Pour les textes dans d'autres langues, veuillez sÃ©lectionner parmi les options ci-dessous.
 
-+  [*English*](/docs/README.en.md) <!-- 英語 -->
-+  [*繁体字*](/docs/README.zh-TW.md) <!-- 中国語 (繁体字) -->
-+  [*Español*](/docs/README.es.md) <!-- スペイン語 -->
-+  [*Deutsch*](/docs/README.de.md) <!-- ドイツ語 -->
-+  [*français*](/docs/README.fr.md) <!-- フランス語 -->
-+  [*русский язык*](/docs/README.ru.md) <!-- ロシア語 -->
+*   [*English*](/docs/README.en.md)
+*   [*繁体字*](/docs/README.zh-TW.md)
+*   [*Español*](/docs/README.es.md)
+*   [*Deutsch*](/docs/README.de.md)
+*   [*français*](/docs/README.fr.md)
+*   [*русский язык*](/docs/README.ru.md)
 
 ## installer
 
