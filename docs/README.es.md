@@ -1,6 +1,6 @@
 # *markdown-translate*
 
-*markdown-translate* es *wes library* que traduce mientras conserva relativamente la apariencia de *markdown* .
+*markdown-translate* es *wes library* que traduce mientras conserva el formato *markdown* .
 
 El texto original de este [*README*](/README.md) está en japonés. Los textos que no sean en japonés serán traducidos automáticamente. Para textos en otros idiomas, seleccione entre las opciones a continuación.
 
@@ -23,17 +23,12 @@ Cree un proyecto con *google apps script* , defina la siguiente función `doPost
 
 ```javascript
 function doPost(event_object) {
-    const parameter = JSON.parse(event_object.postData.getDataAsString());
-    const result = LanguageApp.translate(
-        parameter.content,
-        parameter.source,
-        parameter.target,
-        { contentType: parameter.contentType }
-    );
+    const { content, source, target, contentType } = JSON.parse(event_object.postData.getDataAsString())
+    const result = LanguageApp.translate(content, source, target, { contentType })
  
-    const output = ContentService.createTextOutput();
-    output.setMimeType(ContentService.MimeType.JSON);
-    output.setContent(JSON.stringify({ result }));
+    const output = ContentService.createTextOutput()
+    output.setMimeType(ContentService.MimeType.JSON)
+    output.setContent(JSON.stringify({ result }))
  
     return output;
 }

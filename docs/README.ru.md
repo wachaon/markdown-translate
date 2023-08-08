@@ -1,6 +1,6 @@
 # *markdown-translate*
 
-*markdown-translate* — это *wes library* , которая переводит, относительно сохраняя внешний вид *markdown* .
+*markdown-translate* — это *wes library* , которая переводит с сохранением форматирования *markdown* .
 
 Исходный текст этого [*README*](/README.md) будет на японском языке. Тексты, отличные от японского, будут переведены автоматически. Для текстов на других языках выберите один из вариантов ниже.
 
@@ -23,17 +23,12 @@ wes install @wachaon/markdown-translate --bare
 
 ```javascript
 function doPost(event_object) {
-    const parameter = JSON.parse(event_object.postData.getDataAsString());
-    const result = LanguageApp.translate(
-        parameter.content,
-        parameter.source,
-        parameter.target,
-        { contentType: parameter.contentType }
-    );
+    const { content, source, target, contentType } = JSON.parse(event_object.postData.getDataAsString())
+    const result = LanguageApp.translate(content, source, target, { contentType })
  
-    const output = ContentService.createTextOutput();
-    output.setMimeType(ContentService.MimeType.JSON);
-    output.setContent(JSON.stringify({ result }));
+    const output = ContentService.createTextOutput()
+    output.setMimeType(ContentService.MimeType.JSON)
+    output.setContent(JSON.stringify({ result }))
  
     return output;
 }
