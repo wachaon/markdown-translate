@@ -1,8 +1,8 @@
 # *markdown-translate*
 
-*markdown-translate* è *wes library* che traduce preservando la formattazione *markdown* .
+*markdown-translate* è una libreria che [*wes*](https://github.com/wachaon/wes) può tradurre mantenendo la formattazione *markdown* .
 
-Il testo originale di questo [*README*](/README.md) è in giapponese. I testi diversi dal giapponese saranno tradotti automaticamente. Per i testi in altre lingue, selezionare una delle opzioni seguenti.
+Il testo originale di questo *README* è in giapponese. I testi diversi dal giapponese saranno tradotti automaticamente. Per i testi in altre lingue, selezionare una delle opzioni seguenti.
 
 *   [*日本語*](/README.md)
 *   [*English*](/docs/README.en.md)

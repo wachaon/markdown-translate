@@ -1,8 +1,8 @@
 # *markdown-translate*
 
-*markdown-translate*是*wes library* ，可以在保留*markdown*格式的同時進行翻譯。
+*markdown-translate*是一個庫，供[*wes*](https://github.com/wachaon/wes)在保持*markdown*格式的同時進行翻譯。
 
-本自述[*README*](/README.md)的原始文本為日語。日語以外的文本將被機器翻譯。對於其他語言的文本，請從以下選項中進行選擇。
+本自述*README*的原始文本是日語。日語以外的文本將被機器翻譯。對於其他語言的文本，請從以下選項中進行選擇。
 
 *   [*日本語*](/README.md)
 *   [*English*](/docs/README.en.md)
