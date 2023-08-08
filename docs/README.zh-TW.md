@@ -4,6 +4,7 @@
 
 本自述[*README*](/README.md)的原始文本為日語。日語以外的文本將被機器翻譯。對於其他語言的文本，請從以下選項中進行選擇。
 
+*   [*日本語*](/README.md)
 *   [*English*](/docs/README.en.md)
 *   [*繁体字*](/docs/README.zh-TW.md)
 *   [*Español*](/docs/README.es.md)

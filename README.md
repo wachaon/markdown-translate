@@ -5,6 +5,7 @@
 この [*README*](/README.md) の原文は日本語になります。日本語以外は機械翻訳の文章になります。
 他言語の文章は下記から選択してください。
 
++  [*日本語*](/README.md) <!-- 日本語 -->
 +  [*English*](/docs/README.en.md) <!-- 英語 -->
 +  [*繁体字*](/docs/README.zh-TW.md) <!-- 中国語 (繁体字) -->
 +  [*Español*](/docs/README.es.md) <!-- スペイン語 -->

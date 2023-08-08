@@ -4,6 +4,7 @@
 
 Le texte original de ce [*README*](/README.md) sera en japonais. Les textes autres que le japonais seront traduits automatiquement. Pour les textes dans d'autres langues, veuillez sÃ©lectionner parmi les options ci-dessous.
 
+*   [*日本語*](/README.md)
 *   [*English*](/docs/README.en.md)
 *   [*繁体字*](/docs/README.zh-TW.md)
 *   [*Español*](/docs/README.es.md)
