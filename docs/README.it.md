@@ -63,13 +63,14 @@ Gli argomenti da passare a *markdown-translate* sono:
 
 `options` possono impostare i seguenti membri.
 
-| nome     | tipo         | spiegazione                                         | Valore specificato                    |
-| -------- | ------------ | --------------------------------------------------- | ------------------------------------- |
-| `src`    | `{string}`   | percorso del file originale                         | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | linguaggio del codice                               | `undefinde`                           |
-| `dist`   | `{string}`   | Percorso della directory di output                  | `dirname(src)`                        |
-| `langs`  | `{string[]}` | lingua da tradurre                                  | `['en']`                              |
-| `cache`  | `{string}`   | Percorso del file della cronologia delle traduzioni | `resolve(Dist, 'cache.json')`         |
+| nome       | tipo         | spiegazione                                         | Valore specificato                    |
+| ---------- | ------------ | --------------------------------------------------- | ------------------------------------- |
+| `src`      | `{string}`   | percorso del file originale                         | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | linguaggio del codice                               | `undefinde`                           |
+| `dist`     | `{string}`   | Percorso della directory di output                  | `dirname(src)`                        |
+| `langs`    | `{string[]}` | lingua da tradurre                                  | `['en']`                              |
+| `cache`    | `{string}`   | Percorso del file della cronologia delle traduzioni | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | Funzione da chiamare dopo la traduzione             | `(md) => md`                          |
 
 ## regole per la scrittura
 

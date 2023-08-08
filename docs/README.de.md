@@ -63,13 +63,14 @@ Die an *markdown-translate* zu übergebenden Argumente sind:
 
 `options` können die folgenden Mitglieder festlegen.
 
-| Name     | Typ          | Erläuterung                        | Spezifizierter Wert                   |
-| -------- | ------------ | ---------------------------------- | ------------------------------------- |
-| `src`    | `{string}`   | Originaldateipfad                  | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | Ausgangssprache                    | `undefinde`                           |
-| `dist`   | `{string}`   | Pfad des Ausgabeverzeichnisses     | `dirname(src)`                        |
-| `langs`  | `{string[]}` | Sprache zu übersetzen              | `['en']`                              |
-| `cache`  | `{string}`   | Pfad der Übersetzungsverlaufsdatei | `resolve(Dist, 'cache.json')`         |
+| Name       | Typ          | Erläuterung                                               | Spezifizierter Wert                   |
+| ---------- | ------------ | --------------------------------------------------------- | ------------------------------------- |
+| `src`      | `{string}`   | Originaldateipfad                                         | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | Ausgangssprache                                           | `undefinde`                           |
+| `dist`     | `{string}`   | Pfad des Ausgabeverzeichnisses                            | `dirname(src)`                        |
+| `langs`    | `{string[]}` | Sprache zu übersetzen                                     | `['en']`                              |
+| `cache`    | `{string}`   | Pfad der Übersetzungsverlaufsdatei                        | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | Funktion, die nach der Übersetzung aufgerufen werden soll | `(md) => md`                          |
 
 ## Regeln zum Schreiben
 

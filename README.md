@@ -63,13 +63,14 @@ translate(api, options)
 
 `options` は以下のメンバーの設定が出来ます。
 
-| 名前     | 型           | 説明                     | 規定値                                |
-| -------- | ------------ | ------------------------ | ------------------------------------- |
-| `src`    | `{string}`   | 原文のファイルパス       | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | 原文の言語               | `undefinde`                           |
-| `dist`   | `{string}`   | 出力先のディレクトリパス | `dirname(src)`                        |
-| `langs`  | `{string[]}` | 翻訳する言語             | `['en']`                              |
-| `cache`  | `{string}`   | 翻訳履歴のファイルパス   | `resolve(Dist, 'cache.json')`         |
+| 名前       | 型           | 説明                     | 規定値                                |
+| ---------- | ------------ | ------------------------ | ------------------------------------- |
+| `src`      | `{string}`   | 原文のファイルパス       | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | 原文の言語               | `undefinde`                           |
+| `dist`     | `{string}`   | 出力先のディレクトリパス | `dirname(src)`                        |
+| `langs`    | `{string[]}` | 翻訳する言語             | `['en']`                              |
+| `cache`    | `{string}`   | 翻訳履歴のファイルパス   | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | 翻訳後に呼び出す関数     | `(md) => md`                          |
 
 ## 文章作成でのルール
 

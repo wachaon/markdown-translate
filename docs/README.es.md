@@ -63,13 +63,14 @@ Los argumentos a pasar a *markdown-translate* son:
 
 `options` pueden establecer los siguientes miembros.
 
-| nombre   | tipo         | explicación                                  | Valor específico                      |
-| -------- | ------------ | -------------------------------------------- | ------------------------------------- |
-| `src`    | `{string}`   | ruta del archivo original                    | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | lenguaje fuente                              | `undefinde`                           |
-| `dist`   | `{string}`   | Ruta del directorio de salida                | `dirname(src)`                        |
-| `langs`  | `{string[]}` | idioma para traducir                         | `['en']`                              |
-| `cache`  | `{string}`   | Ruta del archivo del historial de traducción | `resolve(Dist, 'cache.json')`         |
+| nombre     | tipo         | explicación                                  | Valor específico                      |
+| ---------- | ------------ | -------------------------------------------- | ------------------------------------- |
+| `src`      | `{string}`   | ruta del archivo original                    | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | lenguaje fuente                              | `undefinde`                           |
+| `dist`     | `{string}`   | Ruta del directorio de salida                | `dirname(src)`                        |
+| `langs`    | `{string[]}` | idioma para traducir                         | `['en']`                              |
+| `cache`    | `{string}`   | Ruta del archivo del historial de traducción | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | Función para llamar después de la traducción | `(md) => md`                          |
 
 ## reglas para escribir
 

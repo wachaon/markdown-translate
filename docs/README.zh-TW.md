@@ -63,13 +63,14 @@ translate(api, options)
 
 `options`可以設置以下成員。
 
-| 姓名       | 類型           | 解釋       | 指定值                                   |
-| -------- | ------------ | -------- | ------------------------------------- |
-| `src`    | `{string}`   | 原始文件路徑   | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | 源語言      | `undefinde`                           |
-| `dist`   | `{string}`   | 輸出目錄路徑   | `dirname(src)`                        |
-| `langs`  | `{string[]}` | 要翻譯的語言   | `['en']`                              |
-| `cache`  | `{string}`   | 翻譯歷史文件路徑 | `resolve(Dist, 'cache.json')`         |
+| 姓名         | 類型           | 解釋       | 指定值                                   |
+| ---------- | ------------ | -------- | ------------------------------------- |
+| `src`      | `{string}`   | 原始文件路徑   | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | 源語言      | `undefinde`                           |
+| `dist`     | `{string}`   | 輸出目錄路徑   | `dirname(src)`                        |
+| `langs`    | `{string[]}` | 要翻譯的語言   | `['en']`                              |
+| `cache`    | `{string}`   | 翻譯歷史文件路徑 | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | 翻譯後調用的函數 | `(md) => md`                          |
 
 ## 寫作規則
 

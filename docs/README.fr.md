@@ -63,13 +63,14 @@ Les arguments à passer à *markdown-translate* sont :
 
 `options` peuvent définir les membres suivants.
 
-| nom      | taper        | explication                                          | Valeur spécifiée                      |
-| -------- | ------------ | ---------------------------------------------------- | ------------------------------------- |
-| `src`    | `{string}`   | chemin du fichier d'origine                          | `resolve(process.cwd(), 'README.md')` |
-| `origin` | `{string}`   | langue originelle                                    | `undefinde`                           |
-| `dist`   | `{string}`   | Chemin du répertoire de sortie                       | `dirname(src)`                        |
-| `langs`  | `{string[]}` | langue à traduire                                    | `['en']`                              |
-| `cache`  | `{string}`   | Chemin d'accès au fichier d'historique de traduction | `resolve(Dist, 'cache.json')`         |
+| nom        | taper        | explication                                          | Valeur spécifiée                      |
+| ---------- | ------------ | ---------------------------------------------------- | ------------------------------------- |
+| `src`      | `{string}`   | chemin du fichier d'origine                          | `resolve(process.cwd(), 'README.md')` |
+| `origin`   | `{string}`   | langue originelle                                    | `undefinde`                           |
+| `dist`     | `{string}`   | Chemin du répertoire de sortie                       | `dirname(src)`                        |
+| `langs`    | `{string[]}` | langue à traduire                                    | `['en']`                              |
+| `cache`    | `{string}`   | Chemin d'accès au fichier d'historique de traduction | `resolve(Dist, 'cache.json')`         |
+| `callback` | `{function}` | Fonction à appeler après traduction                  | `(md) => md`                          |
 
 ## règles d'écriture
 
