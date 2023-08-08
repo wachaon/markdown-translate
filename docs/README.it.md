@@ -63,7 +63,7 @@ Gli argomenti da passare a *markdown-translate* sono:
 
 `options` possono impostare i seguenti membri.
 
-| nome       | tipo         | spiegazione                                         | Valore specificato                    |
+| nome       | tipo         | spiegazione                                         | valore di default                     |
 | ---------- | ------------ | --------------------------------------------------- | ------------------------------------- |
 | `src`      | `{string}`   | percorso del file originale                         | `resolve(process.cwd(), 'README.md')` |
 | `origin`   | `{string}`   | linguaggio del codice                               | `undefinde`                           |

@@ -63,7 +63,7 @@ Los argumentos a pasar a *markdown-translate* son:
 
 `options` pueden establecer los siguientes miembros.
 
-| nombre     | tipo         | explicación                                  | Valor específico                      |
+| nombre     | tipo         | explicación                                  | valor por defecto                     |
 | ---------- | ------------ | -------------------------------------------- | ------------------------------------- |
 | `src`      | `{string}`   | ruta del archivo original                    | `resolve(process.cwd(), 'README.md')` |
 | `origin`   | `{string}`   | lenguaje fuente                              | `undefinde`                           |

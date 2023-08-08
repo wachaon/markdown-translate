@@ -63,7 +63,7 @@ translate(api, options)
 
 `options`可以設置以下成員。
 
-| 姓名         | 類型           | 解釋       | 指定值                                   |
+| 姓名         | 類型           | 解釋       | 默認值                                   |
 | ---------- | ------------ | -------- | ------------------------------------- |
 | `src`      | `{string}`   | 原始文件路徑   | `resolve(process.cwd(), 'README.md')` |
 | `origin`   | `{string}`   | 源語言      | `undefinde`                           |

@@ -63,7 +63,7 @@ Les arguments à passer à *markdown-translate* sont :
 
 `options` peuvent définir les membres suivants.
 
-| nom        | taper        | explication                                          | Valeur spécifiée                      |
+| nom        | taper        | explication                                          | valeur par défaut                     |
 | ---------- | ------------ | ---------------------------------------------------- | ------------------------------------- |
 | `src`      | `{string}`   | chemin du fichier d'origine                          | `resolve(process.cwd(), 'README.md')` |
 | `origin`   | `{string}`   | langue originelle                                    | `undefinde`                           |
